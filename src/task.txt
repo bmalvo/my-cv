@@ -1,7 +1,14 @@
 1. Przygotuj nowe repozytorium na Twoim GitHubie.
 2. Stwórz nowy projekt przy pomocy Vite wykorzystujący TypeScript.
-3. Przygotuj interfejs opisujścy Twoje uproszczone CV- photo(link zdjęcia, dowolne- np. ze stocku), name(imię), lastName(nazwisko), position (stanowisko) oraz dwie tablice:
-- experience (doświadczenie zawodowe) - zawierające obiekty z właściwościami description(opis doświadczenia zawodowego) oraz year (rok rozpoczęcia danego doświadczenia).
-- education (edukacja) - tablica zawierająca ciągi znaków reprezentujące kolejne etapy zdobytej wiedzy.
-4. W funkcji render zwróć strukturę reprezentującą CV- układ dowolny z zachowaniem ogólnych zasad - dwie kolumny, w lewej - zdjęcie, imię, nazwisko, w prawej - najpierw doświadczenie zawodowe, a poniżej edukacja.
+3. Przygotuj interfejs opisujący Twoje uproszczone CV- photo(link zdjęcia, 
+dowolne- np. ze stocku), name(imię), lastName(nazwisko), position (stanowisko) 
+oraz dwie tablice:
+- experience (doświadczenie zawodowe) - zawierające obiekty z właściwościami
+ description(opis doświadczenia zawodowego) oraz year (rok rozpoczęcia danego 
+ doświadczenia).
+- education (edukacja) - tablica zawierająca ciągi znaków reprezentujące 
+kolejne etapy zdobytej wiedzy.
+4. W funkcji render zwróć strukturę reprezentującą CV- układ dowolny z 
+zachowaniem ogólnych zasad - dwie kolumny, w lewej - zdjęcie, imię, nazwisko, 
+w prawej - najpierw doświadczenie zawodowe, a poniżej edukacja.
 5. Wykorzystaj scss/css, aby ostylować CV według własnego uznania.

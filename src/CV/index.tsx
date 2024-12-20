@@ -4,13 +4,13 @@ import { Personal } from '../Personal';
 import { CVData } from '../types';
 import './CV.scss';
 
-const CV = () => {
+export const CV = () => {
     const cvData: CVData = {
         personal: {
-            photo: 'https://placehold.co/400x400?text=PS',
+            photo: 'https://i.ibb.co/SPNmMT9/loco-photo.jpg',
             name: 'Patryk',
             lastName: 'Skonieczny',
-            position: 'Junior Developer',
+            position: 'Junior React Developer',
         },
         details: {
             experience: [
@@ -32,5 +32,3 @@ const CV = () => {
     
    </main>
 }
-
-export { CV }
