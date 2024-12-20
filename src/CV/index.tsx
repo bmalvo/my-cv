@@ -14,13 +14,20 @@ export const CV = () => {
         },
         details: {
             experience: [
-                {year: 2020, description: 'Lorem ipsum'},
-                {year: 2023, description: 'Dolor sit amet'},
+                {
+                    year: 2017, description: 'Prymat- "Warehouse Worker/ Forklift Operator"'
+                },
+                {
+                    year: 2012, description: 'Prodesk- "Forklift Operator/Driver"'
+                },
             ],
             education: [
-                'Lorem ipsum',
-                'Dolor sit amet',
-                'Ala kota ma'
+                `Nov 2021 - Jun 2022 : Software Development Academy
+                * Python * GIT * TDD * Alorithms * SQL * Django`,
+            `
+            
+            Jan 2024 - Dec 2024 : Kurs Frontowcy
+                * JS * NodeJS * React * Angular * React Native * `,
             ]
         }
     }

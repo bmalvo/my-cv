@@ -12,14 +12,14 @@ const Details = ({ data: {experience, education}}: Props) => {
         <ul>
           {experience.map(experience => (
             <li key={experience.year}>
-              <strong>{experience.year}</strong> - {experience.description}
+              <strong>{experience.year}</strong> -{experience.description}
             </li>
           ))}
         </ul>
         <h2>Education</h2>
         <ul>
           {education.map((education, index) => 
-            <li key={index}>{ education}</li>)}
+            <li key={index}><pre>{ education}</pre></li>)}
         </ul>
       </section>
     )
