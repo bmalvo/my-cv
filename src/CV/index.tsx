@@ -24,9 +24,7 @@ export const CV = () => {
             education: [
                 `Nov 2021 - Jun 2022 : Software Development Academy
                 * Python * GIT * TDD * Alorithms * SQL * Django`,
-            `
-            
-            Jan 2024 - Dec 2024 : Kurs Frontowcy
+                `Jan 2024 - Dec 2024 : Kurs Frontowcy
                 * JS * NodeJS * React * Angular * React Native * `,
             ]
         }
